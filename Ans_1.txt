@@ -1,0 +1,5 @@
+
+def p1():
+    N=input()
+    return int(N)-int(N[::-1])
+print(p1())

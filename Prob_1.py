@@ -1,4 +1,4 @@
-SUMMARY 
+"""SUMMARY 
 
 Mathematics teacher gave Srinath an assignment to determine the difference between the original number 
 and its reverse. Can you write a program to help Srinath complete his assignment?
@@ -17,4 +17,9 @@ Sample Input 2:
 125
 Sample output 2:
 -396
+"""
 
+def p1():
+    N=input()
+    return int(N)-int(N[::-1])
+print(p1())
